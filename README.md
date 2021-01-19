@@ -2,30 +2,32 @@
 Run: Synthesis Implementation (and bitstream) Generation
 
 ### 1. **Setting up the script**
-*** NOTE: Board files for the given FPGA device should already be installed and the FPGA device should be connected prior to starting this script  ***
-Modify the following parameters in the script.
+
+***NOTE: Board files for the given FPGA device should already be installed and the FPGA device should be connected prior to starting this script***
+
+Modify the last parameter in each statement.
+
 
 #### a. Setup the project name in the following line
-	set {project_name} zybo-auto-tcl
+	set {project_name} *project_name*
 
 #### b. Point to the location of all Verilog files
-	set {project_path} /home/red/FPGA/tcl/testing_rsig/
+	set {project_path} *absolute_path_of_the_files*
 
 #### c. Enter all Verilog files -- one in each line -- used in the project.
-	set hdl_source_code(0) top
-	set hdl_source_code(1) op_assign
-	set hdl_source_code(2) <name-without-extension>
-	set hdl_source_code(.) <name-without-extension>
-	set hdl_source_code(.) <name-without-extension>
-	set hdl_source_code(n) <name-without-extension>
+*NOTE: First line should contain the top file*
+
+	set hdl_source_code(0) *verilog_file_1*
+	set hdl_source_code(1) *verilog_file_2*
+	set hdl_source_code(2) *verilog_file_3*
 
 #### d. Enter the name of the constraint file (without extension)
-	set {constraint} Zybo-Z7-Master
+	set {constraint} *Zybo-Z7-Master*
 
 #### e. Enter the FPGA device information
-	set {fpga_part} xc7z010clg400-1
-	set {fpga_id} xc7z010_1
-	set {fpga_board} digilentinc.com:zybo-z7-10:part0:1.0
+	set {fpga_part} *xc7z010clg400-1*
+	set {fpga_id} *xc7z010_1*
+	set {fpga_board} *digilentinc.com:zybo-z7-10:part0:1.0*
 
 ## 2. **Running the script**
 
