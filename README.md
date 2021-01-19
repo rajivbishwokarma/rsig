@@ -33,13 +33,13 @@ Modify the last parameter in each statement.
 	set {constraint} *constraint*
 
 #### e. Enter the FPGA device information
-*Example: For Digilent Zybo-Z7-10
+*Example: For Digilent Zybo-Z7-10*
  
-set {fpga_part} xc7z010clg400-1 
+*set {fpga_part} xc7z010clg400-1*
 
-set {fpga_id} xc7z010_1 
+*set {fpga_id} xc7z010_1* 
 
-set {fpga_board} digilentinc.com:zybo-z7-10:part0:1.0*
+*set {fpga_board} digilentinc.com:zybo-z7-10:part0:1.0*
 
 	set {fpga_part} *fpga_part*
 	set {fpga_id} *fpga_id*
