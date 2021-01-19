@@ -20,6 +20,7 @@ Modify the last parameter in each statement.
 
 #### c. Enter the Verilog files -- one file in each line (without extension) -- used in the project.
 *NOTE: First line should contain the top file*
+
 *Example: set hdl_source_code(0) top*
 
 	set hdl_source_code(0) *verilog_file_1*
@@ -50,6 +51,7 @@ Modify the last parameter in each statement.
 
 ## 3. **Next version update**
 *TODO: Automate the process of file addition.*
+
 *TODO: Automate the device add process."
 
 ## 4. **Conclusion**
