@@ -63,4 +63,4 @@ Modify the last parameter in each statement.
 *TODO: Automate the device add process.*
 
 ## 4. **Conclusion**
-This script was tested in Xilinx Vivado 2020.2 running on Ubuntu 2020.04.
+This script was tested in Xilinx Vivado 2020.2 running on Ubuntu 20.04.
