@@ -10,10 +10,12 @@ Modify the last parameter in each statement.
 
 #### a. Setup the project name in the following line
 *Example: set {project_name} risc_v_cpu*
+	
 	set {project_name} *project_name*
 
 #### b. Point to the location of all Verilog files
 *Example: set {project_path} /home/user/fpga/*
+	
 	set {project_path} *absolute_path_of_the_files*
 
 #### c. Enter the Verilog files -- one file in each line (without extension) -- used in the project.
@@ -26,6 +28,7 @@ Modify the last parameter in each statement.
 
 #### d. Enter the name of the constraint file (without extension)
 *Example: set {constraint} zybo-z710*
+	
 	set {constraint} *constraint*
 
 #### e. Enter the FPGA device information
@@ -47,6 +50,7 @@ Modify the last parameter in each statement.
 
 ## 3. **Next version update**
 *TODO: Automate the process of file addition.*
+*TODO: Automate the device add process."
 
 ## 4. **Conclusion**
 This script was tested in Xilinx Vivado 2020.2.
