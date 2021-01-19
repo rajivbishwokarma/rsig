@@ -28,4 +28,8 @@ Modify the following parameters in the script
 	set {fpga_board} digilentinc.com:zybo-z7-10:part0:1.0
 
 2. Next version update
+	TODO: Automate the process of file addition.
+
 3. Conclusion
+
+This script was successfully tested in Xilinx Vivado 2020.2.
