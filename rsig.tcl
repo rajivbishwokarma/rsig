@@ -1,4 +1,5 @@
 # R-SIG: Run Synthesis-Implementation-(and bit-stream)Generation
+# Version: 1
 # --------------------------------------------------------------------------------------------------------------
 # START_PARAMETERS
 set {project_name} zybo-auto-tcl
