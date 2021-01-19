@@ -52,7 +52,7 @@ Modify the last parameter in each statement.
 ## 3. **Next version update**
 *TODO: Automate the process of file addition.*
 
-*TODO: Automate the device add process."
+*TODO: Automate the device add process.*
 
 ## 4. **Conclusion**
 This script was tested in Xilinx Vivado 2020.2 running on Ubuntu 2020.04.
