@@ -4,27 +4,23 @@
 
 # START_CONFIG_PARAMETERS
 
-set {project_name} zybo-auto-tcl
-set {project_path} /home/red/FPGA/tcl/testing_rsig/
+set {project_name} *project_name*
+set {project_path} *absolute_path_of_files*
 
 # Enter the name (without extension) of HDL files here;
 # NOTE: Zero index should point to the top module in the design
 
-set hdl_source_code(0) top
-set hdl_source_code(1) op_assign
-
-# set hdl_source_code(2) <name-without-extension>
-# set hdl_source_code(.) <name-without-extension>
-# set hdl_source_code(.) <name-without-extension>
-# set hdl_source_code(n) <name-without-extension>
+set hdl_source_code(0) *verilog_file_1*
+set hdl_source_code(1) *verilog_file_2*
+set hdl_source_code(1) *verilog_file_3*
 
 # Add constraint file
-set {constraint} Zybo-Z7-Master
+set {constraint} *constraint*
 
 # Set the FPGA parameters
-set {fpga_part} xc7z010clg400-1
-set {fpga_id} xc7z010_1
-set {fpga_board} digilentinc.com:zybo-z7-10:part0:1.0
+set {fpga_part} *fpga_part_number*
+set {fpga_id} *fpga_id*
+set {fpga_board} *board_information*
 
 # END_CONFIG_PARAMETERS
 
