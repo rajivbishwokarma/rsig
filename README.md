@@ -30,9 +30,13 @@ Modify the following parameters in the script.
 ## 2. **Running the script**
 
  a. Place this script along with all the Verilog files
+
  b. Start Xilinx Vivado
+
  c. Change directory to the location of current files
+
  d. Finally, start the script with
+ 	
 	source rsig.tcl
 
 ## 3. **Next version update**
